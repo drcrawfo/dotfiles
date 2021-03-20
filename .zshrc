@@ -5,7 +5,9 @@ export TERM=xterm-256color
 export PS1="%F{cyan}%n%f@%F{green}%m%f:%~$ "
 
 # do not autocomplete when ambiguous
-setopt noautomenu
+setopt no_auto_menu
+# save command timestamp and duration in history
+setopt extended_history
 
 # preferred ls implementation
 alias ls='ls -GFh'
