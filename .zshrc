@@ -8,9 +8,15 @@ export PS1="%F{cyan}%n%f@%F{green}%m%f:%~$ "
 setopt no_auto_menu
 # save command timestamp and duration in history
 setopt extended_history
+# ignore dupes when searching history (CTRL+R)
+setopt hist_find_no_dups
+# do not save consecutive dups to history
+setopt hist_ignore_dups
+# append to history file as commands are entered
+setopt inc_append_history
 
 # preferred ls implementation
-alias ls='ls -GFh'
+alias -g ls='ls -GFh'
 
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
