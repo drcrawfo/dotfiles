@@ -16,7 +16,7 @@ setopt hist_ignore_dups
 setopt inc_append_history
 
 # preferred ls implementation
-alias -g ls='ls -GFh'
+alias ls='ls -GFh'
 
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
