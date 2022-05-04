@@ -25,3 +25,9 @@ fi
 
 # iterm shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Handle Mac platforms
+CPU=$(uname -p)
+if [[ "$CPU" == "arm" ]]; then
+    export PATH="/opt/homebrew/bin:$PATH"
+fi
