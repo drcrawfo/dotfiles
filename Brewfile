@@ -1,0 +1,29 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "ffmpeg"
+brew "imagemagick"
+brew "iperf3"
+brew "git"
+brew "jq"
+brew "mas"
+brew "ncdu"
+brew "nmap"
+brew "tldr"
+brew "tmux"
+brew "wget"
+brew "pyenv"
+brew "virtualenv"
+brew "poppler"
+cask "iterm2"
+cask "sublime-text"
+cask "postman"
+cask "authy"
+cask "firefox"
+cask "tiles"
+cask "zoom"
+cask "iina", args: { appdir: "/Applications" }
+cask "moneydance", args: { appdir: "/Applications" }
+cask "kdiff3", args: { appdir: "/Applications" }
+mas "Amphetamine", id: 937984704
+mas "Paprika Recipe Manager 3", id: 1303222628
