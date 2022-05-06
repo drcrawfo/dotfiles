@@ -22,8 +22,8 @@ cask "authy"
 cask "firefox"
 cask "tiles"
 cask "zoom"
-cask "iina", args: { appdir: "/Applications" }
-cask "moneydance", args: { appdir: "/Applications" }
-cask "kdiff3", args: { appdir: "/Applications" }
+cask "iina"
+cask "moneydance"
+cask "kdiff3"
 mas "Amphetamine", id: 937984704
 mas "Paprika Recipe Manager 3", id: 1303222628
